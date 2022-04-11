@@ -1,6 +1,6 @@
 # Singapore's COVID-19 Story
 
-[Link to app](https://share.streamlit.io/zeyalt/pm-lee-covid19-speeches/sg_covid_timeline.py)
+[Link to app](https://share.streamlit.io/zeyalt/SG-Covid19-Story/sg_covid_timeline.py)
 
 ## About this app
 

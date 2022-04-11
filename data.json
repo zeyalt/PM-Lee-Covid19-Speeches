@@ -1,7 +1,7 @@
 {
   "title": {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/pm_lee.jpg?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/pm_lee.jpg?raw=true",
           "credit": "Source: Prime Minister's Office Singapore"
       },
       "text": {
@@ -12,7 +12,7 @@
   "events": [
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2020-02-08.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2020-02-08.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-on-the-Novel-Coronavirus-nCoV-Situation-in-Singapore-on-8-February-2020'>Full speech</a>)"
       },
       "start_date": {
@@ -26,7 +26,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2020-03-12.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2020-03-12.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-remarks-COVID-19-Outbreak-12-Mar-2020'>Full speech</a>)"
       },
       "start_date": {
@@ -40,7 +40,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2020-04-03.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2020-04-03.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-on-the-COVID19-situation-in-Singapore-on-3-April-2020'>Full speech</a>)"
       },
       "start_date": {
@@ -54,7 +54,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2020-04-10.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2020-04-10.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-on-the-COVID-19-situation-in-Singapore-on-10-April-2020'>Full speech</a>)"
       },
       "start_date": {
@@ -68,7 +68,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2020-04-21.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2020-04-21.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-address-COVID-19-21-Apr'>Full speech</a>)"
       },
       "start_date": {
@@ -82,7 +82,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2020-06-07.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2020-06-07.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/National-Broadcast-PM-Lee-Hsien-Loong-COVID-19'>Full speech</a>)"
       },
       "start_date": {
@@ -96,7 +96,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2020-12-14.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2020-12-14.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-on-the-COVID-19-situation-in-Singapore-on-14-December-2020'>Full speech</a>)"
       },
       "start_date": {
@@ -110,7 +110,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2021-05-31.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2021-05-31.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-COVID-19-New-Normal-31-May-2021'>Full speech</a>)"
       },
       "start_date": {
@@ -124,7 +124,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2021-10-09.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2021-10-09.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/Update-on-the-COVID-19-Situation-In-Singapore-by-Prime-Minister-Lee-Hsien-Loong-on-9-October'>Full speech</a>)"
       },
       "start_date": {
@@ -138,7 +138,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2022-03-24.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2022-03-24.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-on-COVID-19-A-New-Phase-on-24-Mar-2022'>Full speech</a>)"
       },
       "start_date": {
@@ -152,7 +152,7 @@
       },
       {
       "media": {
-          "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2022-03-24.png?raw=true",
+          "url": "https://github.com/zeyalt/SG-Covid19-Story/blob/master/Images/phrasecloud_2022-03-24.png?raw=true",
           "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-on-COVID-19-A-New-Phase-on-24-Mar-2022'>Full speech</a>)"
       }
       }
