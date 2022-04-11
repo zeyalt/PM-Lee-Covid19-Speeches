@@ -1,9 +1,6 @@
-# Streamlit Timeline Component Example
-
 import streamlit as st
 from streamlit_timeline import timeline
 
-# use full page width
 st.set_page_config(page_title="Singapore's COVID-19 Journey", layout="wide")
 
 # load data
