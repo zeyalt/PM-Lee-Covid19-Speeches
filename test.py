@@ -1,8 +1,43 @@
 import streamlit as st
 from streamlit_timeline import timeline
 
-st.set_page_config(page_title="Singapore's COVID-19 Journey", layout="wide")
+# Page configuration
+st.set_page_config(initial_sidebar_state="expanded", page_title="Singapore's COVID-19 Story", layout="wide")
 
+st.sidebar.image()
+
+# Sidebar interface
+st.sidebar.header("About this app")
+st.sidebar.info("ParkWhere is a web application that helps me predict parking availability at my apartment block.")
+
+# st.sidebar.header("How did this begin?")
+# how_it_began = """
+# Parking spaces are always limited at the apartment block where I live. Very often, I return home at night, only to end up parking a few hundred metres away. 
+
+# It's especially frustrating when there are things to carry from the car and an active toddler to manage!
+
+# One day, an idea popped into my head \U0001F4A1! Why not collect some data myself, and put data science into action? 
+# """
+# st.sidebar.info(how_it_began)
+
+st.sidebar.header("How does it work?")
+
+st.sidebar.header("Who am I?")
+about_me = """
+Hi! My name is Zeya. This is a project that I've been working on during my free time. 
+
+My main motivation was to develop a simple machine learning application that helps me in my everyday life. 
+
+Feel free to connect with me via 👇:
+"""
+connect_with_me = """
+[![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zeyalt/) 
+
+[![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/zeyalt_) 
+
+[![image](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://zeyalt.medium.com/)
+"""
+st.sidebar.info(about_me + connect_with_me)
 # load data
 # with open('example.json', "r") as f:
 #     data = f.read()
@@ -12,14 +47,12 @@ data = {
     # Starting slide
     "title": {
         "media": {
-            "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/pm_lee.jpg?raw=true width='500' height='100'",
-            # "caption": " <a target=\"_blank\" href=''>credits</a>",
+            "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/pm_lee.jpg?raw=true",
             "credit": "Source: Prime Minister's Office Singapore"
         },
         "text": {
-            # "headline": "<font size='+4'>Singapore's<br>COVID-19 Journey<br>Through<br>PM Lee's Speeches</font>",
-            "headline": "Singapore's<br>COVID-19 Journey,<br>Told Through<br>PM Lee's Speeches",
-            "text": "<p>Since COVID-19 struck Singapore in January 2020, PM Lee<br>has addressed the nation several times. In many ways, each<br>speech reflected the state of the pandemic in Singapore as<br>well as measures taken by the Government.</p>This timeline takes you on a journey through Singapore's<br>fight against COVID-19 through key phrases extracted from<br>each of PM Lee's speeches."
+            "headline": "Singapore's<br>COVID-19 Story",
+            "text": "<p>Since COVID-19 struck Singapore in January 2020, PM Lee has addressed the nation several times. In many ways, each speech reflected the state of the pandemic in Singapore as well as measures taken by the Government.</p><p>This timeline takes you on a journey through Singapore's COVID-19 story through key phrases extracted from each of PM Lee's speeches.</p>"
         }
     },
 
@@ -85,7 +118,7 @@ data = {
             "day": "10"
         },
         "text": {
-            "headline": "Outbreak in<br>Foreign Worker Dormitories",
+            "headline": "Outbreak in<br>Dormitories",
             # "text": '<i>"The next few weeks will be tough. I will speak to you like this from time to time. So that you know what the real situation is, what we are thinking, what you can expect and how you can play your part to fight this virus. The situation will get worse before it gets better, but we have to get through this, before the sun comes out and shines on us again."</i>',
         }
         },
@@ -185,10 +218,24 @@ data = {
             # "text": '<i>"Taking all things into consideration, we believe that we are now ready to take a decisive step forward towards living with COVID-19. Resume more normal lives, enjoy larger gatherings of family and friends, go outdoors without masks, or reunite with loved ones abroad. But do not throw all caution to the wind. Each one of us must still play our part."</i>'
         }
         },
-    ]
+        {
+        # Slide 10
+        "media": {
+            "url": "https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/phrasecloud_2022-03-24.png?raw=true",
+            "credit": "Source: Prime Minister's Office Singapore (<a target=\"_blank\" href='https://www.pmo.gov.sg/Newsroom/PM-Lee-Hsien-Loong-on-COVID-19-A-New-Phase-on-24-Mar-2022'>Full speech</a>)"
+        },
+        # "start_date": {
+        #     "year": "2022",
+        #     "month":"3",
+        #     "day": "24"
+        # },
+        "text": {
+            "headline": "Acknowledgements",
+            # "text": '<i>"Taking all things into consideration, we believe that we are now ready to take a decisive step forward towards living with COVID-19. Resume more normal lives, enjoy larger gatherings of family and friends, go outdoors without masks, or reunite with loved ones abroad. But do not throw all caution to the wind. Each one of us must still play our part."</i>'
+        }
+        }
+        ],
     }
-
-# print(data)
 
 # render timeline
 timeline(data, height=800)
