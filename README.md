@@ -4,7 +4,7 @@
 
 ## About this app
 
-This app presents a timeline of Singapore's COVID-19 story, as told through key phrases extracted from PM Lee's speeches. This timeline is built with the awesome [`streamlit_timeline`](https://github.com/innerdoc/streamlit-timeline) package! :blue_heart:"
+This app presents a timeline of Singapore's COVID-19 story, as told through key phrases extracted from PM Lee's speeches. This timeline is built with the awesome [`streamlit_timeline`](https://github.com/innerdoc/streamlit-timeline) package! :blue_heart:
 
 ## How were key phrases extracted?
 
@@ -20,7 +20,7 @@ Hi! My name is Zeya. This was nothing more than a side project, to explore NLP a
 **Disclaimer**: I am, in no way, affliated to the Prime Minister's Office Singapore nor the SG United initiative.
 
 If you liked what you saw, feel free to reach out and connect with me!
-"""
+
 [![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zeyalt/) 
 
 [![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/zeyalt_) 
