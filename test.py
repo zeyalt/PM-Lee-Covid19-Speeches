@@ -85,7 +85,7 @@ data = {
             "day": "10"
         },
         "text": {
-            "headline": "Outbreak in Foreign Worker Dormitories",
+            "headline": "Outbreak in<br>Foreign Worker Dormitories",
             # "text": '<i>"The next few weeks will be tough. I will speak to you like this from time to time. So that you know what the real situation is, what we are thinking, what you can expect and how you can play your part to fight this virus. The situation will get worse before it gets better, but we have to get through this, before the sun comes out and shines on us again."</i>',
         }
         },
@@ -101,7 +101,7 @@ data = {
             "day": "21"
         },
         "text": {
-            "headline": "Extending The Circuit Breaker",
+            "headline": "Extending The<br>Circuit Breaker",
             # "text": '<i>"To our migrant workers, let me emphasise again: we will care for you, just like we care for Singaporeans. We thank you for your cooperation during this difficult period. We will look after your health, your welfare and your livelihood. We will work with your employers to make sure that you get paid, and you can send money home. And we will help you stay in touch with friends and family."</i>'
         }
         },
