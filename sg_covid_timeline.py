@@ -40,4 +40,4 @@ with open('data.json', "r") as f:
     data = f.read()
 
 # Render timeline
-timeline(data, height=550)
+timeline(data, height=650)
