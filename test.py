@@ -4,31 +4,31 @@ from streamlit_timeline import timeline
 # Page configuration
 st.set_page_config(initial_sidebar_state="expanded", page_title="Singapore's COVID-19 Story", layout="wide")
 
-st.sidebar.image('https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/sg_united.jpg?raw=true', use_column_width=True)
+st.sidebar.image('https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/SGUnited%20Logo.png?raw=true', use_column_width=True)
 
 # Sidebar interface
 st.sidebar.header("About this app")
-st.sidebar.info("ParkWhere is a web application that helps me predict parking availability at my apartment block.")
+st.sidebar.info("This app presents a timeline of Singapore's COVID-19 story, as told through key phrases extracted from PM Lee's speeches. This timeline is built with the awesome [`streamlit_timeline`](https://github.com/innerdoc/streamlit-timeline) package! :blue_heart:")
 
-# st.sidebar.header("How did this begin?")
-# how_it_began = """
-# Parking spaces are always limited at the apartment block where I live. Very often, I return home at night, only to end up parking a few hundred metres away. 
+st.sidebar.header("How were key phrases extracted?")
+how = """
+Key phrases were extracted using the [`multi_rake`](https://github.com/vgrabovets/multi_rake) package. It implements a method known as **Rapid Automatic Keyword Extraction (RAKE)**, which uses stopwords and phrase delimiters to identify the most relevant words or phrases in a text. 
+"""
+st.sidebar.info(how)
 
-# It's especially frustrating when there are things to carry from the car and an active toddler to manage!
+st.sidebar.header('How to interpret the "phrase clouds"?')
+p_clouds = """
+The top 10 key phrases from each speech are shown by way of a "phrase cloud", using the [`word_cloud`](https://github.com/amueller/word_cloud) package. Phrases with higher RAKE scores have larger fonts. The variations in font colours are random. 
+"""
+st.sidebar.info(p_clouds)
 
-# One day, an idea popped into my head \U0001F4A1! Why not collect some data myself, and put data science into action? 
-# """
-# st.sidebar.info(how_it_began)
-
-st.sidebar.header("How does it work?")
-
-st.sidebar.header("Who am I?")
+st.sidebar.header("Connect with me")
 about_me = """
-Hi! My name is Zeya. This is a project that I've been working on during my free time. 
+Hi! My name is Zeya. This was nothing more than a side project, to explore NLP and text visualisation methods. 
 
-My main motivation was to develop a simple machine learning application that helps me in my everyday life. 
+**Disclaimer**: I am, in no way, affliated to the Prime Minister's Office Singapore nor the SG United initiative.
 
-Feel free to connect with me via 👇:
+If you liked what you saw, feel free to reach out and connect with me!
 """
 connect_with_me = """
 [![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zeyalt/) 
@@ -52,7 +52,7 @@ data = {
         },
         "text": {
             "headline": "Singapore's<br>COVID-19 Story",
-            "text": "<p>Since COVID-19 struck Singapore in January 2020, PM Lee has addressed the nation several times. In many ways, each speech reflected the state of the pandemic in Singapore as well as measures taken by the Government.</p><p>This timeline takes you on a journey through Singapore's COVID-19 story through key phrases extracted from each of PM Lee's speeches.</p>"
+            "text": "<p>Since COVID-19 struck Singapore in January 2020, PM Lee made it a point to address Singaporeans several times. In some ways, each speech reflected the state of the COVID-19 situation in Singapore as well as measures taken by the Government.</p><p>This timeline takes you on a journey through Singapore's COVID-19 story through key phrases extracted from each of PM Lee's speeches.<p><i>Check out the side bar for more information on how this was done.</i></p></p>"
         }
     },
 
