@@ -4,9 +4,8 @@ from streamlit_timeline import timeline
 # Page configuration
 st.set_page_config(initial_sidebar_state="collapsed", page_title="Singapore's COVID-19 Story", layout="wide")
 
-st.sidebar.image('https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/SGUnited%20Logo.png?raw=true', use_column_width=True)
-
 # Sidebar interface
+st.sidebar.image('https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/SGUnited%20Logo.png?raw=true', use_column_width=True)
 st.sidebar.header("About this app")
 st.sidebar.info("This app presents a timeline of Singapore's COVID-19 story, as told through key phrases extracted from PM Lee's speeches. This timeline is built with the awesome [`streamlit_timeline`](https://github.com/innerdoc/streamlit-timeline) package! :blue_heart:")
 st.sidebar.header("How were key phrases extracted?")
@@ -16,7 +15,7 @@ Key phrases were extracted using the [`multi_rake`](https://github.com/vgrabovet
 st.sidebar.info(how)
 st.sidebar.header('How to interpret the "phrase clouds"?')
 p_clouds = """
-The top 10 key phrases from each speech are shown by way of a "phrase cloud", using the [`word_cloud`](https://github.com/amueller/word_cloud) package. Phrases with higher RAKE scores have larger fonts. The variations in font colours are random. 
+Top 15 key phrases from each speech are shown by way of a "phrase cloud", using the [`word_cloud`](https://github.com/amueller/word_cloud) package. Phrases with higher RAKE scores have larger fonts. The variations in font colours are random. 
 """
 st.sidebar.info(p_clouds)
 st.sidebar.header("Connect with me")
