@@ -4,7 +4,7 @@ from streamlit_timeline import timeline
 # Page configuration
 st.set_page_config(initial_sidebar_state="expanded", page_title="Singapore's COVID-19 Story", layout="wide")
 
-st.sidebar.image()
+st.sidebar.image('https://github.com/zeyalt/PM-Lee-Covid19-Speeches/blob/master/Images/sg_united.jpg?raw=true', use_column_width=True)
 
 # Sidebar interface
 st.sidebar.header("About this app")
