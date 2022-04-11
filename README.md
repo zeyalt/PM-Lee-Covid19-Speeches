@@ -1,6 +1,6 @@
 # Singapore's COVID-19 Story
 
-[Link to app](https://share.streamlit.io/zeyalt/SG-Covid19-Story/sg_covid_timeline.py)
+[Link to app](https://share.streamlit.io/zeyalt/sg-covid19-story/app.py)
 
 ## About this app
 
